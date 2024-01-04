@@ -27,7 +27,7 @@ Feel free to use any technology available in the React environment to achieve th
         - at least one number
         - at least one capital letter
 2.  Allow logging in based on the response from this API endpoint:
-    https://run.mocky.io/v3/3669c83a-9ba1-4424-b08f-a8ef6d699966
+    https://run.mocky.io/v3/3c2a2fcf-6148-48b9-aa81-0b8b3ac75fbc
     The payload should be a JSON object of the form
     {
         "username": "test.user@phrasee.co",
