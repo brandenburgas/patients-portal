@@ -17,6 +17,9 @@ Feel free to use any technology available in the React environment to achieve th
 The login page should look like the following image, but doesn't have to be pixel perfect.
 ![image](https://github.com/PhraseePhoundry/front-end-test/assets/81157604/aaf4a45c-dddf-4293-921c-e22eaee9b9e4)
 
+The patient page should look like the following image:
+![image](https://github.com/PhraseePhoundry/front-end-test/blob/develop/digital-hospital-global-patients.jpg)
+
 ## Requirements
 
 1. Validate input fields:
