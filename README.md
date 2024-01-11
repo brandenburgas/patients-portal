@@ -43,7 +43,7 @@ The patient page should look like the following image:
    
 3.  After a successful response has been received, use it to render a page listing hospital patients following the design attached in 'digital-hospital-global-patients.jpg'.
 4.  This page should not be available to users who are 'unauthenticated'. Those users should be presented with the login page instead.
-5.  Favor the use Redux to manage the some of the state of the app.
+5.  Whilst not a strict requirement, it is preferable that you use Redux to manage at least some of the state of the app.
 6.  Group patients by the "type" property and display users only whose "is_completed" value is false.
 7.  Please sort users ascending within groups by "last_visit_date" or alphabetically if dates are the same.
 8.  Add tests to the most crucial parts of the application logic (Testing-library/Jest preferable)
