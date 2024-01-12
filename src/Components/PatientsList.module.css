@@ -1,0 +1,47 @@
+.content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  align-self: flex-start;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.levelContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.level {
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.buttonNavigate {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}

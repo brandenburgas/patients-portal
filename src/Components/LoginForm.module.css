@@ -1,0 +1,51 @@
+.content {
+  width: 500px;
+  margin-top: 100px;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f9f9f9;
+}
+
+.inputContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  height: 30px;
+  font-size: 13px;
+  width: 75%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonLogin {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.inputError {
+  color: #f00;
+  font-size: 12px;
+}
+
+.loginError {
+  color: #f00;
+  font-size: 16px;
+}
