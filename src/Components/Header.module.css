@@ -1,0 +1,11 @@
+.content {
+  border-bottom: 2px solid #e1f5ff;
+  background: aliceblue;
+}
+
+.logo {
+  width: 150px;
+  margin: auto;
+  position: relative;
+  display: block;
+}
