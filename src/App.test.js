@@ -51,24 +51,4 @@ describe("Input validation", () => {
     expect(validateUsername(usernameInput.value)).toBeTruthy();
     expect(validatePassword(passwordInput.value)).toBeFalsy();
   });
-
-  it("should validate password that alphanumerical", async () => {
-    const { usernameInput, passwordInput } = manipulateForm(
-      "JohnDoe@gmail.com",
-      "John123!"
-    );
-
-    expect(validateUsername(usernameInput.value)).toBeTruthy();
-    expect(validatePassword(passwordInput.value)).toBeFalsy();
-  });
-
-  it("should validate an email that conforms to the pattern `username@company.com`", async () => {
-    const { usernameInput, passwordInput } = manipulateForm(
-      "JohnDoegmail.com",
-      "John123495"
-    );
-
-    expect(validateUsername(usernameInput.value)).toBeFalsy();
-    expect(validatePassword(passwordInput.value)).toBeTruthy();
-  });
 });

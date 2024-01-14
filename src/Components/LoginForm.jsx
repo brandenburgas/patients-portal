@@ -48,7 +48,6 @@ const LoginForm = () => {
 
   return (
     <>
-      {" "}
       {!isLoading ? (
         <form
           className={styles.content}
@@ -85,8 +84,8 @@ const LoginForm = () => {
               <p className={styles.inputError}>Please enter a valid password</p>
             )}
           </div>
-          <div className={styles.buttonContainer}>
-            <button className={styles.buttonLogin}>LOGIN</button>
+          <div>
+            <button className={styles.buttonLogin}>Log in</button>
           </div>
           {isError && <p className={styles.loginError}>{isError}</p>}
         </form>
