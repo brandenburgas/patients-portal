@@ -5,7 +5,7 @@ export const validatePassword = (password) => {
   const hasCapitalLetters = (string) => {
     const capitalLetters = [];
     for (let char of string) {
-      if (char === char.toUpperCase()) {
+      if (char === char.toUpperCase() && isNaN(parseInt(char))) {
         capitalLetters.push(char);
       }
     }
@@ -48,7 +48,7 @@ export const validateUsername = (username) => {
     return slicedString.length <= 128;
   };
 
-  return hasEmailPattern(username) && hasCorrectDomainLength;
+  return hasEmailPattern(username) && hasCorrectDomainLength(username);
 };
 
 export const checkCredentials = (credentials) => {
